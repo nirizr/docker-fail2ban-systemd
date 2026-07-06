@@ -51,7 +51,7 @@ RUN \
     $HOME/.cache
 
 # add local files
-COPY /docker-fail2ban/root/ /
+COPY /root/ /
 
 # ports and volumes
 VOLUME /config
